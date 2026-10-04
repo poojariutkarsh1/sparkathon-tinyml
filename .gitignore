@@ -1,0 +1,23 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Raw data recordings
+data/raw_*.csv
+
+# Intermediate/generated datasets
+data/clean_dataset.csv
+data/ml_dataset.npz
+
+# Keras training model
+data/warehouse_cnn.keras
